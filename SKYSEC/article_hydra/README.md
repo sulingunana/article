@@ -1,0 +1,1 @@
+burada hydra kullanımına ait bilgiler vardır.

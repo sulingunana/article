@@ -1,0 +1,1 @@
+Simple CTF writeup yazısına buradan ulaşabilirsiniz.
