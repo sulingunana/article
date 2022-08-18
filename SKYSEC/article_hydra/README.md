@@ -1,14 +1,14 @@
 WHAT İS HYDRA?
 Weak passwords are still big problem in security. it is becoming easier to cracking algorithms with brute-forcing which is a major kind of attack. Hydra is a parallelized login cracker which supports many of protocols to attack remotely. With Hydra, it is getting faster and flexible and there is a chance to add new modules easily. Hydra uses wordlists to attack systems. Wordlists, contains most used passwords and we can customize our own wordlists to attack specific persons. In this case, this situation shows the importance of using a strong password.
 
-https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img1.jpeg
+[![site](https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img1.jpeg)]
 
 the list of all protocols supported by hydra.
 Hydra is a pre-installed tool in Kali Linux. You can check the usage of Hydra with using this command. This page gives us the knowledge about parameters which we can use with Hydra tool:
 
 #hydra -h
 
-https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img2.jpeg
+[![site](https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img2.jpeg)]
 
 To brute-force ssh username and password
 
@@ -16,7 +16,7 @@ To brute-force ssh username and password
 We have username and password list to attack the target by using Hydra. You can access the wordlist files with this directory (for instance rockyou.txt file iz zipped. You have to unzip to use.)
 cd /usr/share/wordlists
 
-https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img3.jpeg
+[![site](https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img3.jpeg)]
 
 
 To brute-force FTP username and password:
@@ -42,43 +42,43 @@ WORDLISTER TOOL
 Firstly, we should install the Wordlister.
 git clone https://github.com/4n4nk3/Wordlister.git command will help us.
 
-https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img4.jpeg 
+[![site](https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img4.jpeg)]
 
 
 python3 wordlister.py –help
 This command will give us options about how we can use the tool.
 
-https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img5.jpeg
+[![site](https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img5.jpeg)]
 
 We must have input word list to give Python to make wordlister with all combinations.
 Then, we will give the details. For instance, we can choose the character size. Like you have to choose minimum 6 character for passwords.
 python3 wordlister.py –input list.txt –perm 2 –min 6 –max 32
 this command perm command tells us max 2 words can be conbined on the same possible password.
 
-https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img6.jpeg
+[![site](https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img6.jpeg)]
 
 We put the words in a txt file. Then run the command.
 
-https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img7.jpeg
+[![site](https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img7.jpeg)]
 
 We have the txt file that contains combinations.
 
-https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img8.jpeg
+[![site](https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img8.jpeg)]
 
 
 Using Leet mod
 python3 wordlister.py –input input.txt –perm 2 –min 6 –max 32 –leet
 
-https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img9.jpeg
-https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img10.jpeg
+[![site](https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img9.jpeg)]
+[![site](https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img10.jpeg)]
 
 
 Using cap option to capitalize the first letter:
 python3 wordlister.py –input list.txt –perm 2 –min 6 –max 32 –cap
 
-https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img11.jpeg
+[![site](https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img11.jpeg)]
  
 Transform every letter in a word into uppercase:
 python3 wordlister.py –input list.txt –perm 2 –min 6 –max 32 –up
  
-https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img12.jpeg
+[![site](https://github.com/sulingunana/article/tree/main/SKYSEC/article_hydra/img/img12.jpeg)]
