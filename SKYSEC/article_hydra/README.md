@@ -124,5 +124,4 @@ python3 wordlister.py –input list.txt –perm 2 –min 6 –max 32 –cap
 python3 wordlister.py –input list.txt –perm 2 –min 6 –max 32 –up
 ``` 
 <br>
-
 ![site](https://github.com/sulingunana/article/blob/main/SKYSEC/article_hydra/img/img12.jpeg)
