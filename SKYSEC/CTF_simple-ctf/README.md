@@ -13,7 +13,7 @@ Nmap -h ile parametreleri görmek için kullanabiliriz. Burada 1000 in altında 
 
 -sV ikisini de Verdi hem açık portlar hem servisler -sS sadece açık portları verdi . Root privilege istiyor. Çünkü NULL, Stealth SYN Scan ve diğerleri gibi bazı gelişmiş port tarama özellikleri, Nmap’in size kullanılabilir sonuçlar vermesi için ham paket verilerine erişmesi gerektiğinden yalnızca kök ayrıcalıklarıyla çalışabilir.
 
-CVE nin kodları var CVE-2019-9053 gibi bunlar zafiyetlerin system versiyonlarına bağlı id leri. Ben şimdi gobuster ile sitenin alt sayfalarına girebilmem lazım . gobuster bir tane txt kullanıyo common txt ile bana alt sayfaları Verdi birinde versiyonunu veren bir sayfa buldum 2.2.8 cmd yazınca cve de aratınca id ler çıktı cve-2019-9053 kodu bu zafiyet ile uyuşuyor. SQL Injection zafiyeti olduğunu görüyorum.
+CVE nin kodları var CVE-2019-9053 gibi bunlar zafiyetlerin system versiyonlarına bağlı id leri. Ben şimdi gobuster ile sitenin alt sayfalarına girebilmem lazım . Gobuster bir tane txt kullanıyo common txt ile bana alt sayfaları verdi. Birinde versiyonunu veren bir sayfa buldum 2.2.8 cmd yazınca cve de aratınca id ler çıktı cve-2019-9053 kodu bu zafiyet ile uyuşuyor. SQL Injection zafiyeti olduğunu görüyorum.
 
 ![site](https://github.com/sulingunana/article/blob/main/SKYSEC/CTF_simple-ctf/img/img3.jpeg)
 
